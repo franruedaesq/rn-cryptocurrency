@@ -5,8 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/images/splash/ios/launch_screen3x.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5D2DFD"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
