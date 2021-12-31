@@ -2,14 +2,10 @@ import AppLoading from "expo-app-loading";
 import { Asset } from "expo-asset";
 import Constants from "expo-constants";
 import * as SplashScreen from "expo-splash-screen";
-import * as Updates from "expo-updates";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import {
   Animated,
-  Button,
-  Platform,
   StyleSheet,
-  Text,
   View,
 } from "react-native";
 
