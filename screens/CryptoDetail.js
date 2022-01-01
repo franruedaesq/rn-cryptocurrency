@@ -31,7 +31,6 @@ const CryptoDetail = ({ route, navigation }) => {
 
   React.useEffect(() => {
     const { currency } = route.params;
-    console.log(currency);
     setSelectedCurrency(currency);
   }, []);
 
